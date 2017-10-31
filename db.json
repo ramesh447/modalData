@@ -1,45 +1,316 @@
 {
-    "MODAL_text": {
-    "NEW_NUMBER": {
-      "name": "NEW_NUMBER",
-      "heading": "SURE THING",
-      "text": "We're happy to give you a new number, but our promotional service offer is available only to those who transfer their number. Don't worry, you can still join the Inner Circle and get access to all of our amazing perks, you'll just pay the standard service rate.",
-      "leftButton": {
-        "color": "white",
-        "text": "understood, let's go"
-      }
-    },
-    "RESET_PASSWORD": {
-      "name": "RESET_PASSWORD",
-      "heading": "UH OH",
-      "text": "That login information didn’t work. Maybe you forgot. Do you want to try and reset your password?",
-      "leftButton": {
-        "color": "white",
-        "text": "Sure. Take me there"
+   "MODAL_TEXT":{
+      "NEW_NUMBER":{
+         "name":"NEW_NUMBER",
+         "heading":"SURE THING",
+         "text":"We're happy to give you a new number, but our promotional service offer is available only to those who transfer their number. Don't worry, you can still join the Inner Circle and get access to all of our amazing perks, you'll just pay the standard service rate.",
+         "leftButton":{
+            "color":"white",
+            "text":"understood, let's go"
+         }
       },
-      "rightButton": {
-        "color": "white",
-        "text": "Nah. I'll try again"
+      "RESET_PASSWORD":{
+         "name":"RESET_PASSWORD",
+         "heading":"UH OH",
+         "text":"That login information didn’t work. Maybe you forgot. Do you want to try and reset your password?",
+         "leftButton":{
+            "color":"white",
+            "text":"Sure. Take me there"
+         },
+         "rightButton":{
+            "color":"white",
+            "text":"Nah. I'll try again"
+         }
+      },
+      "ELIGIBILITY":{
+         "name":"ELIGIBILITY",
+         "heading":"GREAT NEWS!",
+         "text":"You’re covered. Just purchase any iphone and you’re all set.",
+         "leftButton":{
+            "color":"white",
+            "text":"get your iphone"
+         }
+      },
+      "ELIGIBILITY_2":{
+         "name":"ELIGIBILITY",
+         "heading":"GREAT NEWS!",
+         "text":"You’re covered and eligible to join the Inner Circle — including our promotional service offer. Just purchase any iphone and you’re all set.",
+         "leftButton":{
+            "color":"white",
+            "text":"get your iphone"
+         }
+      },
+      "ELIGIBILITY_SITE_VMU":{
+         "name":"ELIGIBILITY_VMU",
+         "heading":"GREAT NEWS!",
+         "text":"Upgrade to any iphone and you’re in the Inner Circle!",
+         "leftButton":{
+            "color":"white",
+            "text":"get your iphone"
+         }
+      },
+      "ELIGIBILITY_SITE_VMU_APPLE":{
+         "name":"ELIGIBILITY_VMU_APPLE",
+         "heading":"GREAT NEWS!",
+         "text":"Upgrade to any iphone and join the Inner Circle to receive the promotional service offer",
+         "leftButton":{
+            "color":"white",
+            "text":"get your iphone"
+         }
+      },
+      "ELIGIBILITY_SITE_NEW":{
+         "name":"ELIGIBILITY_SITE_NEW",
+         "heading":"GREAT NEWS!",
+         "text":"You're covered. Just purchase any iphone and you're all set.",
+         "leftButton":{
+            "color":"white",
+            "text":"get your iphone"
+         }
+      },
+      "ELIGIBILITY_SITE_MIGRATE":{
+         "name":"ELIGIBILITY_SITE_MIGRATE",
+         "heading":"GREAT NEWS!",
+         "text":"You're covered and eligible to join the Inner Circle - including our promotion service offer. Just purchase any iphone and transfer your number to Virgin Mobile and you're all set.",
+         "leftButton":{
+            "color":"white",
+            "text":"get your iphone"
+         }
+      },
+      "ELIGIBILITY_SITE_UPGRADE":{
+         "name":"ELIGIBILITY_SITE_UPGRADE",
+         "heading":"WELCOME BACK!",
+         "text":"Inner Circle members can upgrade to a new iphone anytime. Go to shop iphone to purchase a device. When it arrives, visit My Account and select Swap My Device",
+         "leftButton":{
+            "color":"white",
+            "text":"take me to shop iphone"
+         }
+      },
+      "ELIGIBILITY_SITE_NO_COVERAGE":{
+         "name":"ELIGIBILITY_SITE_NO_COVERAGE",
+         "heading":"WELL, THIS IS UNFORTUNATE",
+         "text":"Unfortunately, it looks like you're outside of our coverage area. We're sorry we can't help you today, but we're constantly improving and expanding our network, so hopefully we can reconnect in the future.",
+         "leftButton":{
+            "color":"white",
+            "text":"view coverage map"
+         }
+      },
+      "ELIGIBILITY_SITE_NO_TRANSFER":{
+         "name":"ELIGIBILITY_SITE_NO_TRANSFER",
+         "heading":"LET’S TRY SOMETHING DIFFERENT",
+         "text":"Your number cannot be transferred. Check that you entered it correctly or contact your current carrier to clear up any existing obligations. Otherwise, you’re welcome to join the Inner Circle with a new.",
+         "leftButton":{
+            "color":"grey",
+            "text":"try again"
+         },
+         "rightButton":{
+            "color":"white",
+            "text":"get a new number"
+         }
+      },
+      "NO_TRANSFER":{
+         "name":"NO_TRANSFER",
+         "heading":"LET’S TRY SOMETHING DIFFERENT",
+         "text":"Your number cannot be transferred.",
+         "leftButton":{
+            "color":"grey",
+            "text":"try again"
+         },
+         "rightButton":{
+            "color":"white",
+            "text":"get a new number"
+         }
+      },
+      "NO_COVERAGE":{
+         "name":"NO_COVERAGE",
+         "heading":"D’oh!",
+         "text":"Looks like you’re just outside of our coverage range. As much as we hate to say it, Virgin Mobile isn’t the best choice for you. We’re sorry we can’t help you today, but we’re constantly improving our network so hopefully we can reconnect in the future."
+      },
+      "CHECK_STATUS":{
+         "name":"CHECK_STATUS",
+         "heading":"Hold Up",
+         "text":"Looks like that is currently being transferred to the Inner Circle. Click below to view the status of your activation.",
+         "leftButton":{
+            "color":"white",
+            "text":"check activation status"
+         }
+      },
+      "UNDER_AGE":{
+         "name":"UNDER_AGE",
+         "heading":"OOPS",
+         "text":"We’d love to have you in the Inner Circle, but you must be 18 years old to join (19 if you live in Alabama, or 21 if you’re in Puerto Rico). Come back and join us once you’re eligible!"
+      },
+      "NO_NUMBER_TRANSFER":{
+         "name":"NO_NUMBER_TRANSFER",
+         "heading":"WELL, THIS IS UNFORTUNATE",
+         "text":"Your number cannot be transferred. Check that you entered it correctly or contact your current service provider to clear up any existing obligations.",
+         "leftButton":{
+            "color":"white",
+            "text":"try again"
+         }
+      },
+      "NO_DEVICE_TRANSFER":{
+         "name":"NO_DEVICE_TRANSFER",
+         "heading":"WELL, THIS IS UNFORTUNATE",
+         "text":"This device is not eligible for transfer to another carrier.  Please check with your current carrier."
+      },
+      "DEVICE_IN_LOAN_OR_LEASE":{
+         "name":"DEVICE_IN_LOAN_OR_LEASE",
+         "heading":"WELL, THIS IS UNFORTUNATE",
+         "text":"This is not eligible to transfer to the Inner Circle due to an existing financial obligation. Please check with your existing mobile provider for more information. "
+      },
+      "DEVICE_NOT_ELIGIBLE":{
+         "name":"DEVICE_NOT_ELIGIBLE",
+         "heading":"WELL, THIS IS UNFORTUNATE",
+         "text":"This not eligible to transfer to the Inner Circle. Please check with your existing mobile provider for more information."
+      },
+      "DEVICE_NOT_COMPATIBLE":{
+         "name":"DEVICE_NOT_COMPATIBLE",
+         "heading":"WELL, THIS IS UNFORTUNATE",
+         "text":"This is not compatible with the Inner Circle. We’d love to have you in the Inner Circle­­, you’ll just need to buy a new iphone to join.",
+         "leftButton":{
+            "color":"white",
+            "text":"shop iphone"
+         }
+      },
+      "CALL_CARE_GENERAL":{
+         "name":"CALL_CARE",
+         "heading":"OOPS",
+         "text":"Please contact customer support",
+         "phone":"(844)604-3422",
+         "hours":"7AM – 10PM CT Everyday"
+      },
+      "CALL_CARE":{
+         "name":"CALL_CARE",
+         "heading":"OOPS",
+         "text":"We don’t recognize this device. Please contact customer support",
+         "phone":"(844)604-3422",
+         "hours":"7AM – 10PM CT Everyday"
+      },
+      "CALL_CARE_LOGIN":{
+         "name":"CALL_CARE_LOGIN",
+         "heading":"OOPS",
+         "text":"Looks like there may be a problem with your account. Please contact customer support",
+         "phone":"(844) 604-3422",
+         "hours":"7AM – 10PM CT Everyday"
+      },
+      "CALL_CARE_POSTPAID":{
+         "name":"CALL_CARE_POSTPAID",
+         "heading":"OOPS",
+         "text":"Looks like there may be a problem with your current carrier"
+      },
+      "LOCKED_PHONE":{
+         "name":"LOCKED_PHONE",
+         "heading":"OOPS",
+         "text":"Your old iphone has find My iphone enabled which locks the Iphone",
+         "leftButton":{
+            "color":"white",
+            "text":"retry"
+         }
+      },
+      "LOGIN_FAILED":{
+         "name":"LOGIN_FAILED",
+         "heading":"LOGIN FAILED",
+         "text":"For your security, this account has been temporarily locked. Please try again after 3 hours"
+      },
+      "LOGIN_EXPIRED":{
+         "name":"LOGIN_EXPIRED",
+         "heading":"Are you still there?",
+         "text":"Your session has timed out due to inactivity. Click below to start over.",
+         "leftButton":{
+            "color":"white",
+            "text":"start over"
+         }
+      },
+      "RTM_MEMBER":{
+         "name":"RTM_MEMBER",
+         "heading":"WELCOME BACK!",
+         "text":"To activate a new device and add it to your account go to My Account and select Swap My Device",
+         "leftButton":{
+            "color":"white",
+            "text":"take me to My Account"
+         }
+      },
+      "ELIGIBILITYNEWYES":{
+         "name":"ELIGIBILITYNEWYES",
+         "heading":"WELCOME BACK!",
+         "text":"To activate a new device and add it to your account go to My Account and select Swap My Device",
+         "leftButton":{
+            "color":"white",
+            "text":"Take me to My Account"
+         }
+      },
+      "ELIGIBILITYNEWNO":{
+         "name":"ELIGIBILITYNEWNO",
+         "heading":"Great News",
+         "text":"you're covered and eligible, buy iphone and transfer your number and you're all set.",
+         "leftButton":{
+            "color":"white",
+            "text":"Take me to My Account"
+         }
+      },
+      "ELIGIBILITYNOCOVERAGE":{
+         "name":"ELIGIBILITYNOCOVERAGE",
+         "heading":"Bad News",
+         "text":"Unfortunately you`re out of the coverage area.",
+         "leftButton":{
+            "color":"white",
+            "text":"AEM Coverage Map Page"
+         }
+      },
+      "RTM_MEMBER_ELIGIBILITY":{
+         "name":"RTM_MEMBER_ELIGIBILITY",
+         "heading":"Bad News",
+         "text":"Unfortunately you`re out of the coverage area.",
+         "leftButton":{
+            "color":"white",
+            "text":"AEM Coverage Map Page"
+         }
+      },
+      "ELIGIBILITY_PORTIN_NUMBER":{
+         "name":"ELIGIBILITY_PORTIN_NUMBER",
+         "heading":"Well, This is Unfortunate",
+         "text":"Number cannot be transferred. Try again or new number?",
+         "leftButton":{
+            "color":"white",
+            "text":"AEM Coverage Map Page"
+         }
+      },
+      "ELIGIBILITY_NEW_NUMBER":{
+         "name":"ELIGIBILITY_NEW_NUMBER",
+         "heading":"SURE THING",
+         "text":"We're happy to offer you a new number but promo only for those who port",
+         "leftButton":{
+            "color":"white",
+            "text":"AEM Coverage Map Page"
+         }
+      },
+      "ELIGIBILITY_MIGRATION2":{
+         "name":"ELIGIBILITY_MIGRATION",
+         "heading":"HEADS UP",
+         "text":"The good news is you are eligible to join the Inner Circle, including the promotional service offer – just buy an iphone and transfer your number to Virgin Mobile.  The bad news is we’re experiencing a system problem at this time.  To complete your transaction, please call customer support at",
+         "phone":"(844) 604-3422",
+         "hours":"7AM – 10PM CT Everyday"
+      },
+      "ELIGIBILITY_MIGRATION":{
+         "name":"ELIGIBILITY_MIGRATION",
+         "heading":"HEADS UP",
+         "text":"The good news is that you’re eligible to join the Inner Circle — just buy an iphone and you’re in. The bad news is that we’re experiencing a system problem at the moment. To complete your transaction, please give us a call at:",
+         "phone":"(844) 604-3422",
+         "hours":"7AM – 10PM CT Everyday"
+      },
+      "ELIGIBILITY_MIGRATION_TYPE_2":{
+         "name":"ELIGIBILITY_MIGRATION",
+         "heading":"HEADS UP",
+         "text":"The good news is you are eligible to join the Inner Circle, including the promotional service offer – just buy an iphone and you’re in. The bad news is we’re experiencing a system problem at this time. To complete your transaction, please call customer support at",
+         "phone":"(844) 604-3422",
+         "hours":"7AM – 10PM CT Everyday"
+      },
+      "ACTIVATION_MIGRATION":{
+         "name":"ACTIVATION_MIGRATION",
+         "heading":"MIND GIVING US A CALL?",
+         "text":"We’re happy to help you activate your iphone, but we’re experiencing a system problem at the moment. To complete your activation, please give us a call at:",
+         "phone":"(844) 604-3422",
+         "hours":"7AM – 10PM CT Everyday"
       }
-    },
-    "ELIGIBILITY": {
-      "name": "ELIGIBILITY",
-      "heading": "GREAT NEWS!",
-      "text": "You’re covered. Just purchase any iPhone and you’re all set.",
-      "leftButton": {
-        "color": "white",
-        "text": "get your iPhone"
-      }
-    },
-    "ELIGIBILITY_2": {
-      "name": "ELIGIBILITY",
-      "heading": "GREAT NEWS!",
-      "text": "You’re covered and eligible to join the Inner Circle — including our promotional service offer. Just purchase any iPhone and you’re all set.",
-      "leftButton": {
-        "color": "white",
-        "text": "get your iPhone"
-      }
-    }
    }
-  }
-  
+}
