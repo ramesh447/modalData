@@ -1,0 +1,45 @@
+{
+    "MODAL_text": {
+    "NEW_NUMBER": {
+      "name": "NEW_NUMBER",
+      "heading": "SURE THING",
+      "text": "We're happy to give you a new number, but our promotional service offer is available only to those who transfer their number. Don't worry, you can still join the Inner Circle and get access to all of our amazing perks, you'll just pay the standard service rate.",
+      "leftButton": {
+        "color": "white",
+        "text": "understood, let's go"
+      }
+    },
+    "RESET_PASSWORD": {
+      "name": "RESET_PASSWORD",
+      "heading": "UH OH",
+      "text": "That login information didn’t work. Maybe you forgot. Do you want to try and reset your password?",
+      "leftButton": {
+        "color": "white",
+        "text": "Sure. Take me there"
+      },
+      "rightButton": {
+        "color": "white",
+        "text": "Nah. I'll try again"
+      }
+    },
+    "ELIGIBILITY": {
+      "name": "ELIGIBILITY",
+      "heading": "GREAT NEWS!",
+      "text": "You’re covered. Just purchase any iPhone and you’re all set.",
+      "leftButton": {
+        "color": "white",
+        "text": "get your iPhone"
+      }
+    },
+    "ELIGIBILITY_2": {
+      "name": "ELIGIBILITY",
+      "heading": "GREAT NEWS!",
+      "text": "You’re covered and eligible to join the Inner Circle — including our promotional service offer. Just purchase any iPhone and you’re all set.",
+      "leftButton": {
+        "color": "white",
+        "text": "get your iPhone"
+      }
+    }
+   }
+  }
+  
